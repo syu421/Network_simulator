@@ -1,0 +1,100 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadTest",
+            "request": "launch",
+            "mainClass": "nwsim.ex01.ThreadTest",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch WorkerTest",
+            "request": "launch",
+            "mainClass": "nwsim.ex01.WorkerTest",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "nwsim.main.Main",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "nwsim.main.Test",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch FastMath",
+            "request": "launch",
+            "mainClass": "org.apache.commons.math3.util.FastMath",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch Version",
+            "request": "launch",
+            "mainClass": "org.apache.logging.log4j.core.Version",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch PluginManager",
+            "request": "launch",
+            "mainClass": "org.apache.logging.log4j.core.config.plugins.util.PluginManager",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProcessIdPatternConverter",
+            "request": "launch",
+            "mainClass": "org.apache.logging.log4j.core.pattern.ProcessIdPatternConverter",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch CustomLoggerGenerator",
+            "request": "launch",
+            "mainClass": "org.apache.logging.log4j.core.tools.CustomLoggerGenerator",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExtendedLoggerGenerator",
+            "request": "launch",
+            "mainClass": "org.apache.logging.log4j.core.tools.ExtendedLoggerGenerator",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch Generate$CustomLogger",
+            "request": "launch",
+            "mainClass": "org.apache.logging.log4j.core.tools.Generate$CustomLogger",
+            "projectName": "nwsim"
+        },
+        {
+            "type": "java",
+            "name": "Launch Generate$ExtendedLogger",
+            "request": "launch",
+            "mainClass": "org.apache.logging.log4j.core.tools.Generate$ExtendedLogger",
+            "projectName": "nwsim"
+        }
+    ]
+}
