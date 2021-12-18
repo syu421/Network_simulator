@@ -1,0 +1,6 @@
+2021/12/19 05:55:58.203  # of PCs: 63/# of Routers:40
+2021/12/19 05:55:58.352  Time,Protocol,TranID, fromID, toID, minBW(Mbps), reqDuration(ms), reqHops, req_avg_receive_buffersize, req_max_receive_buffersize, req_avg_queue_size, req_max_queue_size, reqSize(byte), resDuraiton(ms), resHop, res_avg_receive_buffersize, res_max_receive_buffersize, res_avg_queue_size, res_max_queue_size, resSize(byte), result(Hit/TTL/Drop)
+2021/12/19 05:56:01.154  ,HTTP_GET,p28-1639860955781,p28,r6,10,4768,2,60.6,258,0.2,1,2000,802,2,16.3066,66, 245.5036,502, 108544,Hit
+2021/12/19 05:56:05.023  ,HTTP_GET,p15-1639860956743,p15,r0,10,5352,3,152.0,457,0.2857,1,2000,1237,3,12.6176,77, 0.3277,1, 125952,Hit
+2021/12/19 05:56:06.868  ,HTTP_GET,p36-1639860955781,p36,r6,10,10303,2,161.4,623,0.2,1,2000,936,2,15.3893,63, 245.2519,502, 103424,Hit
+2021/12/19 05:56:21.207  ,HTTP_GET,p60-1639860955781,p60,r0,100,6824,2,112.4,415,0.2,1,2000,1111,2,769.246,1609, 1.9679,4, 148480,Hit
