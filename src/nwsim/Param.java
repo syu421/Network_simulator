@@ -368,8 +368,12 @@ public class Param {
             // 正規分布
             double meanValue2 = min + (max - min) * mu;
             double sig = (double) (Math.max((meanValue2 - min), (max - meanValue2))) / 3;
-            double ran2 = Param.getRoundedValue(Param.rDataGen.nextGaussian(meanValue2, sig));
-
+            double n = Param.rDataGen.nextGaussian(meanValue2, sig);
+            while(Double.isNaN(n)){
+                n = Param.rDataGen.nextGaussian(meanValue2, sig);
+            }
+            double ran2 = Param.getRoundedValue(n);
+            
             if (ran2 < min) {
                 ran2 = (int) min;
             }
@@ -404,7 +408,12 @@ public class Param {
             // 正規分布
             double meanValue2 = min + (max - min) * mu;
             double sig = (double) (Math.max((meanValue2 - min), (max - meanValue2))) / 3;
-            double ran2 = Param.getRoundedValue(Param.rDataGen.nextGaussian(meanValue2, sig));
+            double n = Param.rDataGen.nextGaussian(meanValue2, sig);
+            while(Double.isNaN(n)){
+                n = Param.rDataGen.nextGaussian(meanValue2, sig);
+            }
+            double ran2 = Param.getRoundedValue(n);
+            //double ran2 = Param.getRoundedValue(Param.rDataGen.nextGaussian(meanValue2, sig));
 
             if (ran2 < min) {
                 ran2 = (double) min;
@@ -440,7 +449,12 @@ public class Param {
             // 正規分布
             double meanValue2 = min + (max - min) * mu;
             double sig = (double) (Math.max((meanValue2 - min), (max - meanValue2))) / 3;
-            double ran2 = Param.getRoundedValue(Param.rDataGen.nextGaussian(meanValue2, sig));
+            double n = Param.rDataGen.nextGaussian(meanValue2, sig);
+            while(Double.isNaN(n)){
+                n = Param.rDataGen.nextGaussian(meanValue2, sig);
+            }
+            double ran2 = Param.getRoundedValue(n);
+            //double ran2 = Param.getRoundedValue(Param.rDataGen.nextGaussian(meanValue2, sig));
 
             if (ran2 < min) {
                 ran2 = (double) min;

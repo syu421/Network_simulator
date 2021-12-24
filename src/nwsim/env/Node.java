@@ -322,7 +322,7 @@ public class Node implements Serializable, Runnable {
 */
             long totalReqTime = p.getRequestHistoryList().getLast().getArrivalTime() - p.getRequestHistoryList().getFirst().getStartTime() + p.getTotalDelay();
 
-            // NWLog.getIns().tranLog(p, "TTL_Max");
+            NWLog.getIns().tranLog(p, "TTL_Max");
 
             return;
         }
