@@ -234,7 +234,7 @@ public class Env {
         //ルータ間のネットワーク
         //未設定ならば設定する．
         //ホストビットを2 - 6に設定する．
-        int hostBit = Param.genInt(2, 6, 1, 0.5);
+        int hostBit = Param.genInt(4, 4, 1, 0.5);
         nic.setHostBit(hostBit);
         //このネットワークの最大のIP数
         int routerNum = Env.getIns().calcIPNum(hostBit);
